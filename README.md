@@ -190,7 +190,7 @@ For a complete description, refer to `data_description.txt`.
 ---
 
 ## Results and Visualizations
-[Watch the Demo Video](video_tour.mp4)
+[Watch the Demo Video](demo.mp4)
 
 
 ---
