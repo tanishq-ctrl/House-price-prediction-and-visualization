@@ -40,21 +40,11 @@ The notebook `House_price_prediction.ipynb` uses regression techniques to predic
    - Encode categorical features.
    - Scale numeric features.
 
-2. **Exploratory Data Analysis (EDA)**:
-   ```python
-   import matplotlib.pyplot as plt
-   import seaborn as sns
-
-   sns.scatterplot(data=df, x='GrLivArea', y='SalePrice')
-   plt.title('Living Area vs Sale Price')
-   plt.show()
-   ```
-
-3. **Model Building**:
+2. **Model Building**:
    - XGBoost, LightGBM, and CatBoost regressors.
    - Combine predictions using an ensemble approach.
 
-4. **Evaluation**:
+3. **Evaluation**:
    - RMSE and R2 scores.
 
 ### Key Results
@@ -88,14 +78,6 @@ The final predictions are averaged across the three models and saved to `submiss
 
 The predictions are saved to `time_on_market_submission.csv`.
 
-### Visualizations
-```python
-plt.hist(df['TimeOnMarket'], bins=30, color='blue')
-plt.title('Distribution of Time on Market')
-plt.xlabel('Days on Market')
-plt.ylabel('Frequency')
-plt.show()
-```
 
 ---
 
@@ -208,24 +190,8 @@ For a complete description, refer to `data_description.txt`.
 ---
 
 ## Results and Visualizations
-### Example Plots
-- **Correlation Heatmap**:
-  ```python
-  sns.heatmap(df.corr(), annot=True, fmt='.2f')
-  plt.title('Correlation Matrix')
-  plt.show()
-  ```
+[Watch the Demo Video](video_tour.mp4)
 
-- **Feature Importance**:
-  ```python
-  importances = model.feature_importances_
-  plt.barh(df.columns, importances)
-  plt.title('Feature Importance')
-  plt.show()
-  ```
-
-### Dashboard Screenshot
-Include a screenshot of the dashboard for reference.
 
 ---
 
