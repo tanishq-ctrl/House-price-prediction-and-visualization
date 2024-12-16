@@ -191,10 +191,6 @@ For a complete description, refer to `data_description.txt`.
 
 ## Results and Visualizations
 [Watch the Demo Video](demo.mp4)
-<video width="600" controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 
 ---
