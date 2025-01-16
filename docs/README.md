@@ -2,6 +2,8 @@
 
 This repository contains code and data for analyzing real estate trends, predicting house prices, estimating time on the market, and building an interactive dashboard for visualization. It is structured to cater to data scientists, real estate analysts, and developers looking to understand property market dynamics.
 
+![Dashoboard Demo](dashboard/houseprice-ezgif.com-video-to-gif-converter.gif)
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Project Structure](#project-structure)
